@@ -1,0 +1,140 @@
+*
+{
+  font-family: 'Itim', cursive;
+}
+body
+{
+  background-color: #403D82;
+}
+header
+{
+  background: #2B295A;
+  height: 200px;
+  color: white;
+}
+/*.container-grid
+{
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+  grid-template-rows: repeat(1fr 1fr 1fr);
+}
+*/
+.banner
+{
+  display: flex;
+  margin: auto;
+  border: none;
+}
+.banner img
+{
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: 10px;
+}
+.btn_group
+{
+  font-size: 35px;
+  color: white;
+  display: grid;
+  gap: 40px;
+  text-align: center;
+}
+.deposit
+{
+  font-size: 28px;
+  box-shadow: 2px 2px #FFFF;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  width: 500px;
+  height: 70px;
+}
+.withdraw
+{
+  font-size: 28px;
+  box-shadow: 2px 2px #FFFF;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  width: 500px;
+  height: 70px;
+}
+button:hover
+  {
+    background: #ECECEC;
+    color: black;
+  }
+
+.form-group
+{
+  font-size: 17px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 10px solid #2B295A;
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+}
+.form-group input
+{
+  background-color: #7C7C7C;
+  color: #FFFF;
+  border: none;
+}
+input[type=submit]
+{
+  font-size: 18px;
+  margin-bottom : 10px;
+  background-color: green;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 2px 2px #FFFF;
+}
+  input[type=submit]:hover
+  {
+    background-color: #fff;
+    color: black;
+  }
+
+.cancel
+{
+  margin: 15px;
+  color: white;
+  font-size: 18px;
+  margin-bottom : 10px;
+  background-color: red;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 2px 2px #FFFF;
+  border: none;
+  }
+  .cancel:hover
+  {
+    background-color: #fff;
+    color: black;
+  }
+
+::placeholder 
+{
+  color: black;
+}
+
+footer
+{
+  background: #2B295A;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
